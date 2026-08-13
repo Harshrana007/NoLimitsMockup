@@ -3,101 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Limit Personal Training</title>
+    <meta name="description" content="NO LIMIT Personal Training - Transform your body, build confidence, and achieve real results with expert personal trainers in Placentia, CA.">
+    <title>NO LIMIT Personal Training - Build Strength & Confidence</title>
     
-    <!-- Premium Web Fonts -->
+    <!-- Preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
     
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Skip to content link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <!-- Header -->
+    <!-- Header/Navigation -->
     <header class="site-header" id="header">
-        <div class="container header-container">
-            <a href="#" class="brand-logo" aria-label="No Limit Personal Training Home">
-                <span class="logo-main"><span class="text-red">NO</span> LIMIT</span>
-                <span class="logo-sub">PERSONAL TRAINING</span>
-            </a>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="brand-logo" aria-label="NO LIMIT Personal Training">
+                    <span class="logo-text"><span class="text-red">NO</span> LIMIT</span>
+                    <span class="logo-sub">PERSONAL TRAINING</span>
+                </a>
 
-            <!-- Mobile Menu Toggle -->
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
-            <nav class="main-nav" id="mainNav">
-                <ul class="nav-links">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#training">TRAINING</a></li>
-                    <li><a href="#results">RESULTS</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#reviews">REVIEWS</a></li>
-                </ul>
-                <a href="#free-session" class="btn btn-primary nav-cta">FREE TRAINING SESSION</a>
-            </nav>
+                <!-- Navigation Menu -->
+                <nav class="main-nav" id="mainNav" role="navigation">
+                    <ul class="nav-links">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#coaches">COACHES</a></li>
+                        <li><a href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                    <a href="#free-session" class="btn btn-primary nav-cta">GET STARTED</a>
+                </nav>
+            </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="main-content">
         <div class="hero-bg" style="background-image: url('assets/hero.jpg');"></div>
         <div class="hero-overlay"></div>
         
         <div class="container hero-container">
-            <div class="hero-content">
+            <div class="hero-content fade-in">
                 <h1 class="hero-title">
-                    STRONGER.<br>
-                    FITTER.<br>
-                    MORE<br>
-                    CONFIDENT.
+                    <span class="word">STRONGER.</span>
+                    <span class="word">FITTER.</span>
+                    <span class="word">MORE CONFIDENT.</span>
                 </h1>
                 
-                <div class="hero-subtitle">
-                    <p>Personal Training That<br>Helps You Move Better,<br>Feel Stronger and Live Healthier.</p>
-                </div>
+                <p class="hero-subtitle">
+                    Personal Training for Adults Who Want<br>
+                    More Strength, Energy and Confidence
+                </p>
                 
                 <ul class="hero-benefits">
                     <li>
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="var(--primary-red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        Build strength
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Get stronger for everyday life</span>
                     </li>
                     <li>
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="var(--primary-red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        Improve mobility
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Move with ease and confidence</span>
                     </li>
                     <li>
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="var(--primary-red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        Boost energy
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Increase energy and vitality</span>
                     </li>
                     <li>
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="var(--primary-red)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        Feel like yourself again
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Feel like yourself again</span>
                     </li>
                 </ul>
+
+                <div class="hero-cta">
+                    <a href="#free-session" class="btn btn-primary btn-large">
+                        CLAIM FREE TRAINING SESSION
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
             </div>
 
-            <div class="hero-form-wrapper" id="free-session">
-                <div class="lead-form-card">
+            <!-- Free Session Form -->
+            <div class="hero-form-section" id="free-session">
+                <div class="form-card fade-in">
                     <h2>START WITH A<br><span class="text-red">FREE TRAINING SESSION</span></h2>
-                    <p>No obligation. Just a conversation.</p>
+                    <p class="form-description">No obligation. Just a conversation about your goals.</p>
                     
-                    <form class="lead-form" id="heroForm">
+                    <form class="lead-form" id="heroForm" aria-label="Free training session form">
                         <div class="form-group">
-                            <input type="text" id="fullName" placeholder="Full Name" required>
+                            <input type="text" id="fullName" placeholder="Full Name" required aria-label="Full name">
+                            <span class="form-error" id="nameError"></span>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" placeholder="Email Address" required>
+                            <input type="email" id="email" placeholder="Email Address" required aria-label="Email address">
+                            <span class="form-error" id="emailError"></span>
                         </div>
                         <div class="form-group">
-                            <input type="tel" id="phone" placeholder="Phone Number" required>
+                            <input type="tel" id="phone" placeholder="Phone Number" required aria-label="Phone number">
+                            <span class="form-error" id="phoneError"></span>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">
-                            CLAIM MY FREE SESSION 
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            CLAIM MY FREE SESSION
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                         </button>
                     </form>
                 </div>
@@ -105,126 +126,414 @@
         </div>
     </section>
 
-    <!-- Social Proof Bar -->
-    <section class="social-proof">
-        <div class="container social-proof-grid">
-            <div class="proof-item">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                <div class="proof-text">
-                    <strong>600+</strong>
-                    <span>5-STAR REVIEWS</span>
+    <!-- Social Proof Section -->
+    <section class="social-proof" role="complementary">
+        <div class="container">
+            <div class="proof-grid">
+                <div class="proof-item fade-up">
+                    <div class="proof-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <div class="proof-text">
+                        <strong>600+</strong>
+                        <span>5-Star Reviews</span>
+                    </div>
                 </div>
-            </div>
-            <div class="proof-item">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                <div class="proof-text">
-                    <strong>300+</strong>
-                    <span>ACTIVE MEMBERS</span>
+                <div class="proof-item fade-up">
+                    <div class="proof-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <div class="proof-text">
+                        <strong>300+</strong>
+                        <span>Active Members</span>
+                    </div>
                 </div>
-            </div>
-            <div class="proof-item">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                <div class="proof-text">
-                    <strong>LOCAL &</strong>
-                    <span>FAMILY OWNED</span>
+                <div class="proof-item fade-up">
+                    <div class="proof-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="proof-text">
+                        <strong>LOCALLY OWNED</strong>
+                        <span>& Operated</span>
+                    </div>
                 </div>
-            </div>
-            <div class="proof-item">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                <div class="proof-text">
-                    <strong>PLACENTIA, CA</strong>
-                    <span>& SURROUNDING AREAS</span>
+                <div class="proof-item fade-up">
+                    <div class="proof-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <div class="proof-text">
+                        <strong>PLACENTIA, CA</strong>
+                        <span>& Surrounding Areas</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features" id="about">
+    <!-- Features/About Section -->
+    <section class="features-section" id="features">
         <div class="container">
-            <h2 class="section-title">WHAT MAKES NO LIMIT DIFFERENT</h2>
+            <div class="section-header">
+                <h2 class="section-title fade-up">WHY CHOOSE NO LIMIT</h2>
+                <p class="section-subtitle fade-up">Personalized training designed to help you achieve real results</p>
+            </div>
             
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card fade-up">
                     <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4v16M18 4v16M2 8h8M14 8h8M2 16h8M14 16h8M6 12h12"/></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4v16M18 4v16M2 8h8M14 8h8M2 16h8M14 16h8M6 12h12"/></svg>
                     </div>
-                    <h3>EXPERT<br>COACHING</h3>
-                    <p>Qualified coaches<br>who care.</p>
+                    <h3>Expert Coaching</h3>
+                    <p>Certified trainers with years of experience who genuinely care about your success.</p>
                 </div>
                 
-                <div class="feature-card">
+                <div class="feature-card fade-up">
                     <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
                     </div>
-                    <h3>SUPPORTIVE<br>COMMUNITY</h3>
-                    <p>You're never<br>in this alone.</p>
+                    <h3>Supportive Community</h3>
+                    <p>Be part of a welcoming group of people working toward their health goals together.</p>
                 </div>
                 
-                <div class="feature-card">
-                    <div class="feature-icon text-red">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline><path d="M12 18v-6"></path><path d="M9 15l3-3 3 3"></path></svg>
+                <div class="feature-card fade-up">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/><path d="M12 18v-6M9 15l3-3 3 3"/></svg>
                     </div>
-                    <h3>PERSONALIZED<br>PROGRAMS</h3>
-                    <p>Plans built<br>around you.</p>
+                    <h3>Personalized Programs</h3>
+                    <p>Every plan is customized to your fitness level, goals, and preferences.</p>
                 </div>
                 
-                <div class="feature-card">
+                <div class="feature-card fade-up">
                     <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
                     </div>
-                    <h3>REAL RESULTS</h3>
-                    <p>Get stronger,<br>move better,<br>feel better.</p>
+                    <h3>Real Results</h3>
+                    <p>Track progress and see the transformation in strength, endurance, and confidence.</p>
                 </div>
                 
-                <div class="feature-card">
+                <div class="feature-card fade-up">
                     <div class="feature-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
-                    <h3>ALL FITNESS<br>LEVELS</h3>
-                    <p>Beginner to<br>advanced.</p>
+                    <h3>Flexible Scheduling</h3>
+                    <p>Train when it works for you with convenient scheduling options.</p>
+                </div>
+                
+                <div class="feature-card fade-up">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-7 6.87 1.18 6.88L12 17.77l-5.18 3.25 1.18-6.88-7-6.87 6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <h3>All Fitness Levels</h3>
+                    <p>Whether you're a beginner or advanced, we have the perfect program for you.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonial Section -->
-    <section class="testimonial" id="results">
-        <div class="container testimonial-container">
-            <div class="testimonial-image">
-                <img src="assets/member.jpg" alt="Sarah M. - No Limit Member" loading="lazy">
-            </div>
-            
-            <div class="testimonial-content">
-                <div class="quote-icon">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="var(--primary-red)" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.694 20 8.359L20 9.044L23.5 9.044L23.5 18L14.017 18ZM0 18L0 10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.694 6 8.359L6 9.044L9.5 9.044L9.5 18L0 18Z"/></svg>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-up">
+                    <h2>A BETTER YOU. INSIDE & OUT.</h2>
+                    <p>Personal training that builds strength, improves movement, boosts energy and helps you feel your best self.</p>
+                    <ul class="about-list">
+                        <li>Get stronger for everyday life</li>
+                        <li>Move with ease and confidence</li>
+                        <li>Increase energy and vitality</li>
+                        <li>Feel better inside and out</li>
+                    </ul>
+                    <a href="#free-session" class="btn btn-primary">Book Your Free Session</a>
                 </div>
-                <blockquote class="quote-text">
-                    "No Limit has completely changed how I feel. I'm stronger, have more energy and finally feel confident in my body again."
-                </blockquote>
-                <cite class="quote-author">— SARAH M.</cite>
+                <div class="about-image fade-up">
+                    <img src="assets/hero.jpg" alt="Personal trainer working with client" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-up">TRAINING PLANS</h2>
+                <p class="section-subtitle fade-up">Choose a plan that fits your lifestyle</p>
             </div>
             
-            <div class="testimonial-impact">
-                <h2>REAL MEMBERS.<br><span class="text-red">REAL RESULTS.</span></h2>
+            <div class="pricing-grid">
+                <div class="pricing-card fade-up">
+                    <h3>Single Session</h3>
+                    <div class="price">$75</div>
+                    <p class="price-period">per session</p>
+                    <ul class="pricing-features">
+                        <li>1 Personal Training Session</li>
+                        <li>Form Correction & Guidance</li>
+                        <li>Customized Exercise Selection</li>
+                        <li>Performance Assessment</li>
+                    </ul>
+                    <a href="#free-session" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured fade-up">
+                    <div class="featured-badge">MOST POPULAR</div>
+                    <h3>4-Session Package</h3>
+                    <div class="price">$260</div>
+                    <p class="price-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>4 Personal Training Sessions</li>
+                        <li>Form Correction & Guidance</li>
+                        <li>Customized Exercise Selection</li>
+                        <li>Performance Assessment</li>
+                        <li>Progress Tracking</li>
+                    </ul>
+                    <a href="#free-session" class="btn btn-primary">Claim Free Session</a>
+                </div>
+
+                <div class="pricing-card fade-up">
+                    <h3>Unlimited Training</h3>
+                    <div class="price">$199</div>
+                    <p class="price-period">per month</p>
+                    <ul class="pricing-features">
+                        <li>Unlimited Training Sessions</li>
+                        <li>Form Correction & Guidance</li>
+                        <li>Customized Exercise Selection</li>
+                        <li>Weekly Progress Reviews</li>
+                        <li>Nutrition Guidance</li>
+                    </ul>
+                    <a href="#free-session" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaches Section -->
+    <section class="coaches-section" id="coaches">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-up">MEET YOUR COACHES</h2>
+                <p class="section-subtitle fade-up">Expert trainers dedicated to your success</p>
+            </div>
+            
+            <div class="coaches-grid">
+                <div class="coach-card fade-up">
+                    <div class="coach-image">
+                        <img src="assets/hero.jpg" alt="Coach Profile" loading="lazy">
+                    </div>
+                    <h3>Alex Martinez</h3>
+                    <p class="coach-title">Certified Personal Trainer</p>
+                    <p class="coach-bio">10+ years of experience specializing in strength training and mobility coaching for adults.</p>
+                    <div class="coach-credentials">Cert: NASM-PES, ISSA</div>
+                </div>
+
+                <div class="coach-card fade-up">
+                    <div class="coach-image">
+                        <img src="assets/hero.jpg" alt="Coach Profile" loading="lazy">
+                    </div>
+                    <h3>Jessica Chen</h3>
+                    <p class="coach-title">Certified Personal Trainer</p>
+                    <p class="coach-bio">8+ years helping clients achieve their fitness goals with personalized, compassionate coaching.</p>
+                    <div class="coach-credentials">Cert: ACE, NASM</div>
+                </div>
+
+                <div class="coach-card fade-up">
+                    <div class="coach-image">
+                        <img src="assets/hero.jpg" alt="Coach Profile" loading="lazy">
+                    </div>
+                    <h3>David Thompson</h3>
+                    <p class="coach-title">Strength & Conditioning Coach</p>
+                    <p class="coach-bio">7+ years specializing in functional training and injury prevention for all fitness levels.</p>
+                    <div class="coach-credentials">Cert: USSF, NASM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-up">REAL MEMBERS. REAL RESULTS.</h2>
+                <p class="section-subtitle fade-up">See what our clients have achieved</p>
+            </div>
+            
+            <div class="testimonials-carousel" id="testimonialCarousel">
+                <div class="testimonial-card fade-up">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="assets/hero.jpg" alt="Sarah M." loading="lazy">
+                        </div>
+                        <div>
+                            <h4>Sarah M.</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"No Limit has completely changed how I feel. I'm stronger, have more energy and finally feel confident in my body again."</p>
+                    <div class="testimonial-meta">Trained for 6 months</div>
+                </div>
+
+                <div class="testimonial-card fade-up">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="assets/hero.jpg" alt="Jessica G." loading="lazy">
+                        </div>
+                        <div>
+                            <h4>Jessica G.</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The coaches really care about you. Every workout is tailored to my needs and I've seen amazing changes in just 3 months!"</p>
+                    <div class="testimonial-meta">Trained for 3 months</div>
+                </div>
+
+                <div class="testimonial-card fade-up">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="assets/hero.jpg" alt="Marcus T." loading="lazy">
+                        </div>
+                        <div>
+                            <h4>Marcus T.</h4>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The best decision I made for my health. I'm stronger, faster, and more confident than I've been in years!"</p>
+                    <div class="testimonial-meta">Trained for 8 months</div>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Previous testimonial">❮</button>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Next testimonial">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-up">FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What should I expect during my first session?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Your first session is a free consultation where we'll discuss your goals, assess your fitness level, and create a personalized training plan tailored to your needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do I need any experience?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No! We work with beginners to advanced athletes. Our coaches customize every session to your fitness level and progress.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How often should I train?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We recommend 2-4 sessions per week for optimal results. Your coach will help you find the perfect frequency based on your goals and schedule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What if I'm injured or have health concerns?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Always let us know about any injuries or health conditions. Our coaches are trained to modify exercises and work safely with various limitations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I cancel my membership anytime?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer flexible month-to-month memberships with no long-term contracts. You can cancel anytime with 30 days' notice.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you offer nutrition coaching?</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Basic nutrition guidance is included with all memberships, and we offer specialized nutrition coaching as an add-on service.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Final CTA Section -->
     <section class="final-cta">
-        <div class="cta-bg" style="background-image: url('assets/final.jpg');"></div>
-        <div class="cta-overlay"></div>
-        <div class="container cta-container">
-            <h2>LET'S GET YOU STRONGER</h2>
-            <p>Book your FREE training session today<br>and take the first step toward a<br>healthier, stronger you.</p>
-            <a href="#free-session" class="btn btn-primary btn-large">
-                CLAIM MY FREE SESSION 
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
+        <div class="final-cta-bg" style="background-image: url('assets/hero.jpg');"></div>
+        <div class="final-cta-overlay"></div>
+        <div class="container final-cta-container">
+            <div class="final-cta-content fade-up">
+                <h2>READY TO FEEL STRONGER, HEALTHIER AND MORE CONFIDENT?</h2>
+                <p>Book your FREE training session today and take the first step toward a healthier, stronger you.</p>
+                <a href="#free-session" class="btn btn-primary btn-large">
+                    CLAIM MY FREE SESSION
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NO LIMIT</h3>
+                    <p>Personal Training</p>
+                    <p class="footer-address">Placentia, CA & Surrounding Areas</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#coaches">Coaches</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">𝕏</a>
+                        <a href="#" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📞 (714) 555-0123</p>
+                    <p>✉️ info@nolimit.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NO LIMIT Personal Training. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
 </body>
 </html>
